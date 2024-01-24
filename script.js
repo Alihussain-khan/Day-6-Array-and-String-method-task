@@ -1,28 +1,11 @@
 console.log("running");
 
 //Task a
-let message = "Hello, World!";
+let a = 25;
+console.log(Math.sqrt(a));
 
 //Task b
-console.log(message.substring(0, 5));
+console.log(Math.floor(Math.random() * 11)) + 1;
 
 //Task c
-console.log(message.toLocaleUpperCase());
-
-//Task d
-let includes = message.match(/world/i);
-if (includes == null) {
-  console.log("flase");
-} else {
-  console.log("True");
-}
-
-//Task e
-let replaced = message.replace("World", "Ali");
-console.log(replaced);
-
-//Task f
-//easier way
-const arr = [...message].map((e) => e);
-// console.log(message.split(""));
-console.log(arr);
+console.log(Math.round(Math.PI));
